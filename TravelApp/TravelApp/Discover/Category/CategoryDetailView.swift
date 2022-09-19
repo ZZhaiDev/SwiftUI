@@ -22,23 +22,25 @@ class CategoryDetailsViewModel: ObservableObject {
         }
         
         URLSession.shared.dataTask(with: url) { data, res, err in
-            if let statusCode = (res as? HTTPURLResponse)?.statusCode, statusCode >= 400 {
-                self.isLoading = false
-                self.errorMessage = "Bad status: \(statusCode)"
-                return
-            }
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                guard let data = data else {
+            DispatchQueue.main.async {
+                if let statusCode = (res as? HTTPURLResponse)?.statusCode, statusCode >= 400 {
+                    self.isLoading = false
+                    self.errorMessage = "Bad status: \(statusCode)"
                     return
                 }
                 
-                do {
-                    self.places = try JSONDecoder().decode([Place].self, from: data)
-                } catch {
-                    print("Failed to decode JSON:", error)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    guard let data = data else {
+                        return
+                    }
+                    
+                    do {
+                        self.places = try JSONDecoder().decode([Place].self, from: data)
+                    } catch {
+                        print("Failed to decode JSON:", error)
+                    }
+                    self.isLoading = false
                 }
-                self.isLoading = false
             }
         }.resume()
     }
