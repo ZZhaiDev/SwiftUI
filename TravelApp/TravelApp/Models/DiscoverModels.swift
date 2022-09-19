@@ -22,3 +22,7 @@ struct Restaurant: Hashable {
 struct User: Hashable {
     let name, imageName: String
 }
+
+struct Place: Decodable, Hashable {
+    let name, thumbnail: String
+}
