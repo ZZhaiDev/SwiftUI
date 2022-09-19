@@ -20,5 +20,6 @@ struct TileModifer: ViewModifier {
         content
             .background(.white)
             .cornerRadius(5)
+            .shadow(color: .init(.sRGB, white: 0.8, opacity: 1), radius: 4, x: 0.0, y: 2)
     }
 }
