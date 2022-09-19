@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C3C83AF528D7D0F000F38F21 /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83AF428D7D0F000F38F21 /* TravelAppApp.swift */; };
-		C3C83AF728D7D0F000F38F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83AF628D7D0F000F38F21 /* ContentView.swift */; };
+		C3C83AF728D7D0F000F38F21 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83AF628D7D0F000F38F21 /* DiscoverView.swift */; };
 		C3C83AF928D7D0F100F38F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C83AF828D7D0F100F38F21 /* Assets.xcassets */; };
 		C3C83AFC28D7D0F100F38F21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C83AFB28D7D0F100F38F21 /* Preview Assets.xcassets */; };
 		C3C83B0628D7D0F100F38F21 /* TravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B0528D7D0F100F38F21 /* TravelAppTests.swift */; };
 		C3C83B1028D7D0F100F38F21 /* TravelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B0F28D7D0F100F38F21 /* TravelAppUITests.swift */; };
 		C3C83B1228D7D0F100F38F21 /* TravelAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B1128D7D0F100F38F21 /* TravelAppUITestsLaunchTests.swift */; };
+		C3C83B2128D7FC8F00F38F21 /* DiscoverModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2028D7FC8F00F38F21 /* DiscoverModels.swift */; };
+		C3C83B2328D7FCBA00F38F21 /* TrendingCreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2228D7FCBA00F38F21 /* TrendingCreatorsView.swift */; };
+		C3C83B2528D7FD0300F38F21 /* PopularRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2428D7FD0300F38F21 /* PopularRestaurantsView.swift */; };
+		C3C83B2728D7FD4200F38F21 /* PopularDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2628D7FD4200F38F21 /* PopularDestinationsView.swift */; };
+		C3C83B2928D7FD7400F38F21 /* DiscoverCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2828D7FD7400F38F21 /* DiscoverCategoriesView.swift */; };
+		C3C83B2C28D8019200F38F21 /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C83B2B28D8019200F38F21 /* TileModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		C3C83AF128D7D0F000F38F21 /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C83AF428D7D0F000F38F21 /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
-		C3C83AF628D7D0F000F38F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3C83AF628D7D0F000F38F21 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		C3C83AF828D7D0F100F38F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3C83AFB28D7D0F100F38F21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3C83B0128D7D0F100F38F21 /* TravelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		C3C83B0B28D7D0F100F38F21 /* TravelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C83B0F28D7D0F100F38F21 /* TravelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppUITests.swift; sourceTree = "<group>"; };
 		C3C83B1128D7D0F100F38F21 /* TravelAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3C83B2028D7FC8F00F38F21 /* DiscoverModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModels.swift; sourceTree = "<group>"; };
+		C3C83B2228D7FCBA00F38F21 /* TrendingCreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCreatorsView.swift; sourceTree = "<group>"; };
+		C3C83B2428D7FD0300F38F21 /* PopularRestaurantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRestaurantsView.swift; sourceTree = "<group>"; };
+		C3C83B2628D7FD4200F38F21 /* PopularDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestinationsView.swift; sourceTree = "<group>"; };
+		C3C83B2828D7FD7400F38F21 /* DiscoverCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCategoriesView.swift; sourceTree = "<group>"; };
+		C3C83B2B28D8019200F38F21 /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		C3C83AF328D7D0F000F38F21 /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				C3C83B2A28D8017800F38F21 /* Utils */,
+				C3C83B1F28D7FC8100F38F21 /* Models */,
+				C3C83B1E28D7FC3C00F38F21 /* Discover */,
 				C3C83AF428D7D0F000F38F21 /* TravelAppApp.swift */,
-				C3C83AF628D7D0F000F38F21 /* ContentView.swift */,
 				C3C83AF828D7D0F100F38F21 /* Assets.xcassets */,
 				C3C83AFA28D7D0F100F38F21 /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				C3C83B1128D7D0F100F38F21 /* TravelAppUITestsLaunchTests.swift */,
 			);
 			path = TravelAppUITests;
+			sourceTree = "<group>";
+		};
+		C3C83B1E28D7FC3C00F38F21 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C3C83AF628D7D0F000F38F21 /* DiscoverView.swift */,
+				C3C83B2828D7FD7400F38F21 /* DiscoverCategoriesView.swift */,
+				C3C83B2628D7FD4200F38F21 /* PopularDestinationsView.swift */,
+				C3C83B2228D7FCBA00F38F21 /* TrendingCreatorsView.swift */,
+				C3C83B2428D7FD0300F38F21 /* PopularRestaurantsView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		C3C83B1F28D7FC8100F38F21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3C83B2028D7FC8F00F38F21 /* DiscoverModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3C83B2A28D8017800F38F21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3C83B2B28D8019200F38F21 /* TileModifier.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C83AF728D7D0F000F38F21 /* ContentView.swift in Sources */,
+				C3C83B2928D7FD7400F38F21 /* DiscoverCategoriesView.swift in Sources */,
+				C3C83B2528D7FD0300F38F21 /* PopularRestaurantsView.swift in Sources */,
+				C3C83B2C28D8019200F38F21 /* TileModifier.swift in Sources */,
+				C3C83AF728D7D0F000F38F21 /* DiscoverView.swift in Sources */,
+				C3C83B2128D7FC8F00F38F21 /* DiscoverModels.swift in Sources */,
+				C3C83B2728D7FD4200F38F21 /* PopularDestinationsView.swift in Sources */,
+				C3C83B2328D7FCBA00F38F21 /* TrendingCreatorsView.swift in Sources */,
 				C3C83AF528D7D0F000F38F21 /* TravelAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
